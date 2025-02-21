@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços de Hospedagem Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="img/ICONE_DIAMOND.png">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/ICONE_DIAMOND.png" alt="Diamond System Logo" class="logo-img">
+                DIAMOND SYSTEM
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#pricing">Preços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Soluções Completas para Call Center Ativo</h1>
+            <p>Transforme seu negócio com nossas soluções digitais e encontre seus clientes ideais</p>
+            <a href="#pricing" class="cta-button">Comece Agora</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Nossos Serviços</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-building"></i>
+                <h3>Leads Qualificados CNPJ</h3>
+                <p>Base de dados atualizada com leads empresariais qualificados.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Criação de Sites e Muito Mais</h3>
+                <p>Desenvolvimento de sites profissionais e soluções digitais personalizadas.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-phone-alt"></i>
+                <h3>Discador + Telefonia + Mailing</h3>
+                <p>Sistema integrado de comunicação e gestão de contatos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <h2>Entre em contato e faça seu orçamento</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <i class="fas fa-building"></i>
+                <h3>Mailing e Leads Qualificados</h3>
+                <ul>
+                    <li>Base de Dados Atualizada</li>
+                    <li>Leads Empresariais</li>
+                    <li>Contatos Qualificados</li>
+                    <li>Segmentação por Perfil</li>
+                </ul>
+                <a href="https://wa.me/5581982143238?text=Quero%20saber%20mais%20sobre%20o%20Mailing" target="_blank" class="plan-button">Entre em Contato</a>
+            </div>
+            <div class="pricing-card featured">
+                <i class="fas fa-phone-alt"></i>
+                <h3>Discador + Telefonia + Mailing</h3>
+                <ul>
+                    <li>Sistema Integrado</li>
+                    <li>Gestão de Contatos</li>
+                    <li>Discagem Automática</li>
+                    <li>Relatórios Detalhados</li>
+                </ul>
+                <a href="https://wa.me/5581982143238?text=Quero%20saber%20mais%20sobre%20o%20serviço%20de%20Discador%20%2B%20Mailing" target="_blank" class="plan-button">Entre em Contato</a>
+            </div>
+            <div class="pricing-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Criação de Sites e Serviços Digitais</h3>
+                <ul>
+                    <li>Sites Profissionais</li>
+                    <li>Design Responsivo</li>
+                    <li>Otimização SEO</li>
+                    <li>Suporte Técnico</li>
+                </ul>
+                <a href="https://wa.me/5581982143238?text=Quero%20saber%20mais%20sobre%20a%20Criação%20de%20Sites%20e%20Serviços%20Digitais" target="_blank" class="plan-button">Entre em Contato</a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Sobre Nós</h4>
+                <p>Fornecemos soluções de hospedagem confiáveis e seguras para empresas de todos os tamanhos.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#pricing">Preços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <p>WhatsApp/Telefone: (81) 98214-3238</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; DIAMOND SYSTEM. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-container">
+        <div class="whatsapp-bubble" id="whatsappBubble">
+            <p>Olá! Entre em contato conosco pelo WhatsApp!</p>
+            <button class="close-bubble" onclick="closeWhatsappBubble()">×</button>
+        </div>
+        <a href="https://wa.me/5581982143238" target="_blank" class="whatsapp-button">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
